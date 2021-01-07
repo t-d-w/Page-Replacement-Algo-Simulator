@@ -1,0 +1,23 @@
+CS537 Fall 2020
+  
+Authors:
+Na Li
+CS Login: na
+
+Thomas Wilkinson
+CS Login: twilkinson
+
+
+A basic guide to our implementation of the project:
+- The main file is TraceParser.c.The module handles readings of the tracefile and interact with other files in the project to simulate the page replacement algorithm.
+- process.c, contains createProcess() which creates the process struct that represents each process.
+- PageTable.c, contains methods that create the page table, the page table nodes, compare (for tree), free nodes(for tdestroy), search, and delete.
+- InvertedPageTable.c,this file contains definitions for the inverted page table. In addition to the IPT, there is a free list that contains all of the free PPNs, and takes out of that list to give one. pid, vpn, and an algorithm node pointer are stored in the IPT.
+- DiskQueue.c, this file contains definitions for the disk queue, which stores diskQueueNodes contained pid vpn pairs, and where to jump back to in the file. It is a doubly linked list and has methods to insert and grab from the list.
+- FifoReplacement.c, the module contains functiions that help to create the FIFO queue, add or remove node in the queue.
+- LRUReplacement.c, the module contains functiions that help to create the LRU queue, add or remove node in the queue.
+- ClockReplacement.c, the module contains functiions that help to create the Clock queue, add or remove node in the queue.
+- Statistics.c, the module contains functiions that help toThe module contains functiions that help to calculate the statistics of the project, including AMU, ARP, toal page fault, total memory reads, total clocl ticks.
+- Makefile, makefile of the project, which compiles the files.
+
+
