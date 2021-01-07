@@ -2,9 +2,7 @@
  * Statistics.c
  *
  * Author - Thomas Wilkinson
- * CS Login: twilkinson
  * Author - Na Li
- * CS Login: na
  * 
  * Description:The module contains functiions that help toThe module contains functiions that help to calculate the statistics of the project, including AMU, ARP, toal page fault, total memoey reads, total clocl ticks.
  *

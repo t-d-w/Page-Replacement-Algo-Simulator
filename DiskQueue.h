@@ -2,9 +2,7 @@
  * DiskQueue.h
  *
  * Author - Thomas Wilkinson
- * CS Login: twilkinson
  * Author - Na Li
- * CS Login: na
  * 
  * Description: This file contains structs and declarations for the disk queue, which stores diskQueueNodes contained pid vpn pairs, and where to jump 
  * back to in the file. It is a doubly linked list and has methods to insert and grab from the list. It is FIFO

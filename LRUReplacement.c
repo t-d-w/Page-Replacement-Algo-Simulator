@@ -2,9 +2,7 @@
  * LRUReplacement.c
  *
  * Author - Thomas Wilkinson
- * CS Login: twilkinson
  * Author - Na Li
- * CS Login: na
  * 
  * Description: The module contains functiions that help to create the LRU queue, add or remove node in the queue.
  */

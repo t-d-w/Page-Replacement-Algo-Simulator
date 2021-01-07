@@ -2,9 +2,7 @@
  * TraceParser.c
  *
  * Author - Thomas Wilkinson
- * CS Login: twilkinson 
- * Author - Na Li 
- * CS Login: na
+ * Author - Na Li
  *
  * Description: The module handles readings of the tracefile and interact with other files in the project to simulate the page replacement algorithm.
  */

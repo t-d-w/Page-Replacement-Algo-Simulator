@@ -2,9 +2,7 @@
  * PageTable.c
  *
  * Author - Thomas Wilkinson
- * CS Login: twilkinson
  * Author - Na Li
- * CS Login: na
  * 
  * Description: Contains methods that create the page table, the page table nodes, compare (for tree), free nodes(for tdestroy), search, and delete. 
  *  

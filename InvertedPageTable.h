@@ -2,9 +2,7 @@
  * InvertedPageTable.h
  *
  * Author - Thomas Wilkinson
- * CS Login: twilkinson
  * Author - Na Li
- * CS Login: na
  * 
  * Description: This file contains structs and declarations for the inverted page table. In addition to the IPT, there is a free list that contains all of the 
  * free PPNs, and takes out of that list to give one. pid, vpn, and an algorithm node pointer are stored in the IPT

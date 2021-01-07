@@ -2,9 +2,7 @@
  * PageReplacementAlgorithm.h
  *
  * Author - Thomas Wilkinson
- * CS Login: twilkinson
  * Author - Na Li
- * CS Login: na
  * 
  * Description: create the structure and methods used for FifoRepalcement.c, LRURepalcement.c, ClockReplacement.c
  *

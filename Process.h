@@ -2,9 +2,7 @@
  * Process.h
  *
  * Author - Thomas Wilkinson
- * CS Login: twilkinson
  * Author - Na Li
- * CS Login: na
  * 
  * Description: Contains createProcess() which creates the process struct that represents each process
  */
