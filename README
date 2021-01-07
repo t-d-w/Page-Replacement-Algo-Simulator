@@ -2,16 +2,13 @@ README for Page Replacement Algorithm Simulator
 Authors: Na Li, Thomas Wilkinson
 December 2020
 
-This project is a simulator for 3 different algorithms that replace pages in physical memory. The project is run at the command line, requiring inputs
-to be physical page size, physical memory size, and the trace file which details all of the memory reads to simulate. 
+This project is a simulator for 3 different algorithms that replace pages in physical memory. The project is run at the command line, requiring inputs to be physical page size, physical memory size, and the trace file which details all of the memory reads to simulate. 
 
 The modules provide a good outline as to each simulated aspect and the data structure behind it.
 
 TraceParser.c & TraceParser.h
-the TraceParser is the main file which is responsible for reading through the trace. It will keep track of which processes are blocked, and where the last
-memory read was to continue at. If there is a successful memory read, then the parser continues to read through the trace. If there is an unsuccessful 
-memory read, then we block the process and skip to the next unblocked process in the trace. A table of processes is used to keep track of all the
-processes.
+the TraceParser is the main file which is responsible for reading through the trace. It will keep track of which processes are blocked, and where the last memory read was to continue at. If there is a successful memory read, then the parser continues to read through the trace. If there is an unsuccessful 
+memory read, then we block the process and skip to the next unblocked process in the trace. A table of processes is used to keep track of all the processes.
 
 Process.c & Process.h
 This module defines the process, marking whether or not its blocked and its first and last read. It also contains the pagetable, which is further
